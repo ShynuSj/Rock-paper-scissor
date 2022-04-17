@@ -8,7 +8,7 @@ play_again = ('y','n')
 def start():
     user = None
     while user not in user_choice:
-        user = input('rock, paper or scissor?: ').lower()
+        user = input('rock = r, paper = p or scissor = s?: ').lower()
 
     system_choice = random.choice((system))
     print(f'you choosed = {user} \ncomputer choosed = {system_choice}')
